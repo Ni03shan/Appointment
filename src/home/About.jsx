@@ -1,4 +1,6 @@
-function About() {
+import React from 'react'
+
+export default function About() {
   return (
     <>
       <div className="flex flex-col items-center relative" id="home">
@@ -85,4 +87,3 @@ function About() {
   )
 }
 
-export default About;

@@ -1,8 +1,14 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+import Navbar from "../components/Navbar";
 
 function SignUp() {
   return (
     <>
+
+    <div className="flex flex-col justify-center items-center">
+      <Navbar />
+
       <div className="w-[290px] mt-14 min-h-[320px] py-5 shadow-md rounded-xl border-2 bg-gray-200">
         <form className="flex mt-2 flex-col items-center gap-6">
           <p className="form-title text-xl font-bold">Sign up to your account</p>
@@ -11,7 +17,6 @@ function SignUp() {
             <input placeholder="Enter name.." className="email h-8 px-3 rounded-xl shadow-md" />
           </div>
 
-          {/* Contact Input */}
           <div className="input-container flex relative items-center">
             <input placeholder="Enter contact No.." className="email h-8 px-3 rounded-xl shadow-md" />
             <span className="absolute top-1 right-3">
@@ -77,6 +82,7 @@ function SignUp() {
             <a href="/signin" className="underline text-blue-500"> Sign in</a>
           </p>
         </form>
+      </div>
       </div>
     </>
   )

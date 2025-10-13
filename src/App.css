@@ -1,4 +1,7 @@
 @import "tailwindcss";
+html{
+   scroll-behavior: smooth;
+}
 @keyframes autoRun3d {
   from {
     transform: perspective(800px) rotateY(-360deg);

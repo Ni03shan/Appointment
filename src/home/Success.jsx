@@ -26,7 +26,6 @@ const FunFacts = () => {
           </Link>
         </div>
 
-        {/* Stats Section */}
         <div className="grid grid-cols-2 gap-6 sm:gap-8 text-center">
           <div className="flex flex-col items-center text-white font-bold text-4xl">
             <p>30</p>

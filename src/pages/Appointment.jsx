@@ -1,10 +1,13 @@
 import React from 'react'
 import { Router } from 'react-router-dom'
+import Navbar from "../components/Navbar";
 
 function Appointment() {
   return (
     <>
-    <Router>
+    <div className="flex flex-col justify-center items-center">
+      <Navbar />
+
 
       <div className="w-[290px] mt-14 min-h-[320px] py-5 shadow-md rounded-xl border-2 bg-gray-200">
         <form className="flex mt-2 flex-col items-center gap-6">
@@ -78,7 +81,7 @@ function Appointment() {
           </p>
         </form>
       </div>
-              </Router>
+         </div>     
     </>
   )
 }

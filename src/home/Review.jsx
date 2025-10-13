@@ -9,7 +9,6 @@ const FeedbackForm = () => {
       </p>
 
       <form className="flex p-4 flex-col gap-3 items-center w-72 sm:w-96 shadow-md bg-gray-100 mt-3 rounded-lg">
-        {/* Name */}
         <div className="flex flex-col w-full">
           <label htmlFor="name" className="font-semibold text-xl">
             Name

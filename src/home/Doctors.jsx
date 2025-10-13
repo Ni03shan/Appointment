@@ -3,9 +3,7 @@ import { useEffect, useState } from "react";
 const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
 
-  // later you can replace this with your API call
   useEffect(() => {
-    // Example dummy data (remove when API is ready)
     const demoDoctors = [
       {
         id: 1,
@@ -38,12 +36,10 @@ const Doctors = () => {
 
   return (
     <div className="w-full mt-6 flex flex-col items-center">
-      {/* Heading */}
       <h2 className="font-bold text-3xl sm:text-4xl text-blue-500" id="doctor">
         Our Qualified Doctors
       </h2>
 
-      {/* Doctor Cards */}
       <div className="w-[85%] mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {doctors.map((doctor) => (
           <div

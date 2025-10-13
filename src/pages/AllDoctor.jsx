@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
 
 function AllDoctor() {
   return (
     <>
-    
+  <div className="flex flex-col justify-center items-center">
+      <Navbar />
       <div className="relative flex flex-col items-center justify-center w-full transition-colors duration-300">
         <div className="relative flex items-center justify-between mt-6 bg-gray-800 lg:w-[70%] sm:w-[92%] dark:bg-gray-200 rounded-[10px] overflow-hidden">
           
@@ -96,6 +98,7 @@ function AllDoctor() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </>
   )
