@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {Link} from "react-router-dom"
 import Navbar from "../components/Navbar";
 function SignIn() {
-  const [isPatient, setIsPatient] = useState(true); // toggle between patient/doctor
+  const [isPatient, setIsPatient] = useState(true); 
 
   return (
     <>
